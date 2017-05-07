@@ -8,5 +8,7 @@ int CALLBACK WinMain(
     int       nCmdShow
 )
 {
-    return 0;
+	MessageBoxA(0, "This is handmade Hero ", "Handmade Hero", MB_OK | MB_ICONINFORMATION);
+    
+	return 0;
 }

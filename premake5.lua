@@ -6,6 +6,7 @@ workspace "handmadeHero"
     filter { "platforms:Win64" }
     system "Windows"
     architecture "x64"
+    links { "user32" }
 
 project "handmadeHero_project"
     location "build/handmade_hero"
